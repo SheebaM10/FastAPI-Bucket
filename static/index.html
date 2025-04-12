@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h2>Upload Images</h2>
+    
+    <input type="file" id="fileInput" multiple>
+    <button onclick="uploadImages()">Upload</button>
+
+    <input type="text" id="imageFilenameInput" placeholder="Enter image filename">
+    <button onclick="fetchAndDisplayImage()">Display Image</button>
+    <div id="imageContainer"></div>
+    
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
